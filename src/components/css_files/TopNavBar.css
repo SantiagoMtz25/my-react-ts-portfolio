@@ -16,6 +16,7 @@
 .header .logo {
   cursor: pointer;
   font-size: 2.5rem;
+  letter-spacing: 0.5rem;
   font-weight: 700;
 }
 
@@ -26,6 +27,7 @@
 
 .header .logo p:hover {
   transform: scale(1.1);
+  color: var(--muted-sage-green);
 }
 
 .header .nav-links {
@@ -49,7 +51,7 @@
 }
 
 .header .nav-links li a:hover {
-  color: #ffbc0e;
+  color: var(--muted-sage-green);
 }
 
 .header .btn button {
@@ -65,7 +67,7 @@
 
 .header .btn button:hover {
   background-color: #e2f1f8;
-  color: #ffbc0e;
+  color: var(--muted-sage-green);
   transform: scale(1.1);
 }
 
