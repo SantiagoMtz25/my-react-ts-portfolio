@@ -5,7 +5,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+}
+
+.content .image-container {
+  flex: 1;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wrapper {
@@ -33,6 +41,18 @@
   position: relative;
   top: 0;
   animation: slide 12s steps(4) infinite;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 60%;
+  border: 1rem solid var(--muted-sage-green);
+  border-radius: 39% 61% 62% 38% / 32% 80% 20% 68%;
 }
 
 @keyframes slide {
