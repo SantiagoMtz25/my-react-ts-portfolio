@@ -10,9 +10,9 @@ const TopNavBar = () => {
       </div>
       <nav>
         <ul className="nav-links">
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
           <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Experience</a></li>
         </ul>
       </nav>
       <div className='right-elements'>

@@ -8,5 +8,12 @@
   outline: none;
   border: none;
   text-decoration: none;
-  /* border: 1px red dashed; */
+  /* border: 0.1px red dashed; */
+}
+
+.fixed-top-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* High z-index to ensure the nav bar stays on top */
 }
