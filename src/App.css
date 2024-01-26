@@ -9,11 +9,12 @@
   border: none;
   text-decoration: none;
   /* border: 0.1px red dashed; */
-}
 
-.fixed-top-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000; /* High z-index to ensure the nav bar stays on top */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+  /* For Chrome, Safari, and Opera */
+  &::-webkit-scrollbar {
+      display: none;
+  }
 }

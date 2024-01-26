@@ -23,7 +23,7 @@ const AboutMe = () => {
           software. My journey includes internships and a <br></br>
           range of projects that display my passion for <br></br>
           techonology and my commitment to creating solutions <br></br>
-          that address real necessities.
+          that address real necessities
         </span>
       </div>
       <div className="image-container">
