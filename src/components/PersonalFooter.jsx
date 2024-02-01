@@ -15,17 +15,17 @@ const PersonalFooter = () => {
             </figure>
           </div>
           <div className="box">
-            <h2>About Page</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            <h2>About This Page</h2>
+            <p>Small Portfolio page to introduce myself as an enthusiastic programmer eager to keep learning and improving.</p>
+            <p>This page is still in progress, I'm looking foward to add more functionalities and better designs.</p>
           </div>
           <div className="box">
             <h2>Connect With Me</h2>
             <div className="red-social">
-              <a href="https://github.com/SantiagoMtz25" className="fa fa-facebook"></a>
-              <a href="https://www.linkedin.com/in/santiago-martinez-vallejo/" className="fa fa-instagram"></a>
-              <a href="https://www.instagram.com/santimv11/" className="fa fa-twitter"></a>
-              <a href="https://www.chess.com/member/santiagomartinez26" className="fa fa-youtube"></a>
+              <a href="https://github.com/SantiagoMtz25" target="_blank" className="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/santiago-martinez-vallejo/" target="_blank" className="fa fa-instagram"></a>
+              <a href="https://www.instagram.com/santimv11/" target="_blank" className="fa fa-twitter"></a>
+              <a href="https://www.chess.com/member/santiagomartinez26" target="_blank" className="fa fa-youtube"></a>
             </div>
           </div>
         </div>

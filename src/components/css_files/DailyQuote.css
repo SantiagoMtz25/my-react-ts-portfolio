@@ -1,0 +1,28 @@
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-color: var(--terra-cotta);
+}
+
+.quote-container .quote {
+  color: var(--deep-slate-blue);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.quote-container .author {
+  color: var(--deep-slate-blue);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.quote-container .quote-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 1rem;
+  text-align: center;
+}
