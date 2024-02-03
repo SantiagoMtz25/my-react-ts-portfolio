@@ -12,7 +12,10 @@ const ContactMeForm = () => {
   };
 
   const clearForm = () => {
-  
+    setName("");
+    setEmail("");
+    setContactNo("");
+    setMessage("");
   };
 
   return (
@@ -41,13 +44,15 @@ const ContactMeForm = () => {
                 <div className="app-contact">CONTACT INFO : santimtzv01@gmail.com</div>
               </div>
               <div className="screen-body-item">
-                <div className="app-form">
+                <form className="app-form" onSubmit={handleSubmit} action="">
                   <div className="app-form-group">
                     <input
                       className="app-form-control"
                       placeholder="NAME"
                       required
                       type="text"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="app-form-group">
@@ -56,6 +61,8 @@ const ContactMeForm = () => {
                       placeholder="EMAIL"
                       required
                       type="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="app-form-group">
@@ -66,6 +73,8 @@ const ContactMeForm = () => {
                       type="text"
                       inputMode="numeric"
                       pattern="[0-9]+"
+                      value={contactNo}
+                      onChange={(e) => setContactNo(e.target.value)}
                     />
                   </div>
                   <div className="app-form-group message">
@@ -74,13 +83,15 @@ const ContactMeForm = () => {
                       placeholder="MESSAGE"
                       required
                       type="text"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                     />
                   </div>
                   <div className="app-form-group buttons">
-                    <button className="app-form-button" onClick={clearForm}>CANCEL</button>
-                    <button className="app-form-button" onClick={handleSubmit}>SEND</button>
+                    <button className="app-form-button" onClick={clearForm}>CLEAR</button>
+                    <button className="app-form-button" type="submit">SEND</button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>

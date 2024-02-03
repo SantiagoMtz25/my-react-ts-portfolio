@@ -1,0 +1,39 @@
+.more-quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-color: var(--antique-white);
+  gap: 1rem;
+}
+
+.more-quote-container form {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.more-quote-container form input, 
+.more-quote-container form button {
+  padding: 0.625rem 0.938rem;
+  font-size: 1.063rem;
+  margin: 0.5rem 0;
+  background: lightgray;
+  border-radius: 0.313rem;
+  transition: 0.5s;
+  letter-spacing: 0.063rem;
+  transition: all 0.5s ease-out;
+}
+
+.more-quote-container form input:hover {
+  background: var(--muted-sage-green);
+  transform: scale(1.03);
+}
+
+.more-quote-container form button:hover {
+  background: var(--terra-cotta);
+  transform: scale(1.03);
+  border-color: transparent;
+  color: whitesmoke;
+}

@@ -23,6 +23,7 @@ input {
 .background {
   display: flex;
   min-height: 100vh;
+  background-color: var(--terra-cotta);
 }
 
 .container {
@@ -114,7 +115,7 @@ input {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ea1d6f;
+  color: var(--muted-sage-green);
   font-size: 1.625rem; 
 }
 
@@ -126,7 +127,7 @@ input {
   bottom: -0.625rem; 
   width: 1.5625rem; 
   height: 0.25rem; 
-  background: #ea1d6f;
+  background: var(--muted-sage-green);
 }
 
 .app-contact {
@@ -172,14 +173,14 @@ input {
 .app-form-button {
   background: none;
   border: none;
-  color: #ea1d6f;
+  color: var(--muted-sage-green);
   font-size: 0.875rem; 
   cursor: pointer;
   outline: none;
 }
 
 .app-form-button:hover {
-  color: #b9134f;
+  color: var(--antique-white);
 }
 
 .credits {

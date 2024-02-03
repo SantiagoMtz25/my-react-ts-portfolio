@@ -22,10 +22,10 @@ const PersonalFooter = () => {
           <div className="box">
             <h2>Connect With Me</h2>
             <div className="red-social">
-              <a href="https://github.com/SantiagoMtz25" target="_blank" className="fa fa-facebook"></a>
-              <a href="https://www.linkedin.com/in/santiago-martinez-vallejo/" target="_blank" className="fa fa-instagram"></a>
-              <a href="https://www.instagram.com/santimv11/" target="_blank" className="fa fa-twitter"></a>
-              <a href="https://www.chess.com/member/santiagomartinez26" target="_blank" className="fa fa-youtube"></a>
+              <a href="https://github.com/SantiagoMtz25" target="_blank" className="fab fa-github"></a>
+              <a href="https://www.linkedin.com/in/santiago-martinez-vallejo/" target="_blank" className="fab fa-linkedin"></a>
+              <a href="https://www.instagram.com/santimv11/" target="_blank" className="fab fa-instagram"></a>
+              <a href="https://www.chess.com/member/santiagomartinez26" target="_blank" className="fa fa-chess"></a>
             </div>
           </div>
         </div>
