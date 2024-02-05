@@ -34,7 +34,7 @@
   padding-right: 0.625rem;
   font-size: 1.563rem;
   font-weight: bold;
-  animation: fill 8s ease-in-out forwards;
+  animation: fill 4s ease-in forwards;
 }
 
 @keyframes fill {
