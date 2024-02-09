@@ -1,0 +1,92 @@
+.skills-parent {
+  background-color: var(--antique-white);
+  padding: 5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--muted-sage-green);
+}
+
+.skill {
+  width: 100%;
+  height: 1.875rem;
+  background: +transparent;
+  border-radius: 0.5rem;
+}
+
+.skills-text {
+  color: var(--deep-slate-blue);
+  font-size: 1.875rem;
+  font-weight: bolder;
+}
+
+.skill div {
+  height: 100%;
+  color: #333333;
+  width: 0%;
+  text-align: right;
+  padding-right: 0.625rem;
+  font-size: 1.563rem;
+  font-weight: bold;
+  animation: fill 4s ease-in forwards;
+}
+
+@keyframes fill {
+  100% {
+    width: 100%;
+  }
+}
+
+.html {
+  background: #e74c3c;
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.css {
+  background: #3498db;
+  max-width: 50%;
+  border-radius: 0.5rem;
+}
+
+.js {
+  background: yellow;
+  max-width: 75%;
+  border-radius: 0.5rem;
+}
+
+.react {
+  background: #f1c40f;
+  max-width: 65%;
+  border-radius: 0.5rem;
+}
+
+.sql {
+  background: lightblue;
+  max-width: 70%;
+  border-radius: 0.5rem;
+}
+
+.node {
+  background: #27ae60;
+  max-width: 70%;
+  border-radius: 0.5rem;  
+}
+
+.python {
+  background: #e67e22;
+  max-width: 60%;
+  border-radius: 0.5rem;
+}
+
+.kotlin {
+  background: #8e44ad;
+  max-width: 65%;
+  border-radius: 0.5rem;
+}

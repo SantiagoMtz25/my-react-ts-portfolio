@@ -1,0 +1,58 @@
+.Download-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  padding: 0.75rem 1.25rem;
+  color: white;
+  background: var(--deep-slate-blue);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(59, 48, 78, 0.527);
+  letter-spacing: 0.05em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.Download-button svg {
+  margin-right: 0.5rem;
+  width: 1.5625rem;
+}
+
+.Download-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em rgba(88, 71, 116, 0.627);
+}
+
+.Download-button:active {
+  box-shadow: 0 0.3em 1em -0.5em rgba(88, 71, 116, 0.627);
+}
+
+.Download-button::before {
+  content: "";
+  width: 0.25rem;
+  height: 40%;
+  background-color: white;
+  position: absolute;
+  border-top-right-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.Download-button::after {
+  content: "";
+  width: 0.25rem;
+  height: 40%;
+  background-color: white;
+  position: absolute;
+  border-top-left-radius: 0.3125rem;
+  border-bottom-left-radius: 0.3125rem;
+  right: 0;
+  transition: all 0.2s;
+}
+
+.Download-button:hover::before,
+.Download-button:hover::after {
+  height: 60%;
+}

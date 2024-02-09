@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/css_files/AboutMe.css";
+import DownloadCV from "./DownloadCV";
 
 const AboutMe = () => {
 
@@ -8,9 +9,9 @@ const AboutMe = () => {
       <div className="content">
         <span>class SantiagoMartinezVallejo:</span>
         <span><br></br>&emsp;&emsp;__init__(self, career, hobbies):</span>
-        <div class="wrapper">
-          <div class="static-txt">I'm a </div>
-          <ul class="dynamic-txts">
+        <div className="wrapper">
+          <div className="static-txt">I'm a </div>
+          <ul className="dynamic-txts">
             <li><span>Programmer</span></li>
             <li><span>Musician</span></li>
             <li><span>Developer</span></li>
@@ -23,8 +24,11 @@ const AboutMe = () => {
           software. My journey includes internships and a <br></br>
           range of projects that display my passion for <br></br>
           techonology and my commitment to creating solutions <br></br>
-          that address real necessities.
+          that address real necessities
         </span>
+        <div className="cv">
+          <DownloadCV />
+        </div>
       </div>
       <div className="image-container">
         <img src="yoyo2.jpeg" alt="Santiago Martinez Vallejo" />
